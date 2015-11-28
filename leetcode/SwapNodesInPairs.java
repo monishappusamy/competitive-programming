@@ -3,15 +3,15 @@
  *Given 1->2->3->4, you should return the list as 2->1->4->3.
  *Best Solution:
  * public class Solution {
-    public ListNode swapPairs(ListNode head) {
-        if ((head == null)||(head.next == null))
-            return head;
-        ListNode n = head.next;
-        head.next = swapPairs(head.next.next);
-        n.next = head;
-        return n;
-    }
-}
+ *  public ListNode swapPairs(ListNode head) {
+ *       if ((head == null)||(head.next == null))
+ *           return head;
+ *       ListNode n = head.next;
+ *       head.next = swapPairs(head.next.next);
+ *       n.next = head;
+ *       return n;
+ *   }
+ * }
  * 
  */
 
