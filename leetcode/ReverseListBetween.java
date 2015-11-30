@@ -14,7 +14,7 @@ public class Solution {
         int i = 0;
         
         while(mptr.next != null && i < m-1){
-        	temp.next = mptr;
+            temp.next = mptr;
             mptr = mptr.next;
             temp = temp.next;
             i++;
