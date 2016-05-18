@@ -8,7 +8,6 @@ import java.io.*;
 class Main {
 	public static void main(String[] args) throws IOException{
 		Reader.init(System.in);
-		Scanner sc=new Scanner(System.in);
 	    
 	    while (true) {	
 	    	String line = Reader.next();
