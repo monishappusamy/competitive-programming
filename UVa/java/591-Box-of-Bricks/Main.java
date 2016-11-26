@@ -1,5 +1,14 @@
 /**
  * Created by Monish on 11/24/16.
+ * 
+ * Sample Input
+ * 6
+ * 5 2 4 1 7 5
+ * 0
+ * 
+ * Sample Output
+ * Set #1
+ * The minimum number of moves is 5.
  */
 
 import java.util.*;
